@@ -1,0 +1,4 @@
+<div *ngIf="notification.notificationStatus" class="notification">
+    <span class="message">{{ notification.notificationMessage }}</span>
+    <button class="close-btn" (click)="onCloseButtonClick()">×</button>
+</div>

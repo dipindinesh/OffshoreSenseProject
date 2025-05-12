@@ -1,0 +1,12 @@
+<div class="dashboard-container">
+  <h1>Offshore Plant Status Dashboard</h1>
+
+  <div class="plant-grid">
+    <div *ngFor="let plant of plants()" class="plant-section">
+      <app-plant [plantDetails]="plant"></app-plant>
+    </div>
+  </div>
+</div>
+
+<app-notification>
+</app-notification>

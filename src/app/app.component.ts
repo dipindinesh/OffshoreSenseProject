@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { PlantDashboardComponent } from './components/plant-dashboard/plant-dashboard.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [
+    PlantDashboardComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
